@@ -1,0 +1,48 @@
+name: decisions
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - bzip2=1.0.8=h6c40b1e_6
+  - ca-certificates=2026.10.20=h59cdc77_1
+  - expat=2.7.1=h6d0c2b6_0
+  - libcxx=19.1.7=haebbb44_3
+  - libffi=3.4.4=hecd8cb5_1
+  - libmpdec=4.0.0=h46256e1_0
+  - ncurses=6.5=h923df54_0
+  - openssl=3.0.17=hee2dfae_0
+  - pip=26.2.2=pyhc872135_0
+  - python=3.13.5=h81a7116_100_cp313
+  - python_abi=3.13=0_cp313
+  - readline=8.3=h49f2429_0
+  - setuptools=78.1.1=py313hecd8cb5_0
+  - sqlite=3.50.2=hc8b0dd6_1
+  - tk=8.6.15=h3a5a201_0
+  - wheel=0.45.1=py313hecd8cb5_0
+  - xz=5.6.4=h46256e1_1
+  - zlib=1.2.13=h4b97444_1
+  - pip:
+      - cloudpickle==3.1.2
+      - contourpy==1.4.0
+      - cycler==0.12.1
+      - fonttools==4.68.0
+      - joblib==1.6.0
+      - kiwisolver==1.5.1
+      - matplotlib==3.11.2
+      - narwhals==2.28.0
+      - numpy==2.5.4
+      - packaging==26.3
+      - pandas==3.1.1
+      - pillow==13.0.0
+      - plotly==7.1.0
+      - polars==2.1.0
+      - polars-runtime-32==2.1.0
+      - pyparsing==3.3.3
+      - python-dateutil==4.0.0
+      - scikit-learn==1.9.1
+      - scipy==1.18.1
+      - seaborn==0.13.2
+      - threadpoolctl==3.7.0
+      - tzdata==2026.6
+prefix: /opt/anaconda3/envs/decisions
